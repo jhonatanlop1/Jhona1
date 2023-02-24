@@ -1,12 +1,5 @@
-<html>
-    <head>
-        <title>Json Jhonalop</title>
-    </head>
-    <body>
-        <script> type="text/javascript" 
-    
-        let contacts = `{
-            "contacts":[
+{
+    "contacts":[
         {
             "Nombres": "Kristoffer Klaesson",
             "apellidos": " fylker",
@@ -41,12 +34,4 @@
             "Nacionalidad": "portugues"
         }
     ]
-        }`;
-        console.log(JSON.parse(contacts));
-        let parsedContacts = JSON.parse(contacts);
-        console.log(parsedContacts.contacts[0].name)
-        </script>
-    </body>
-
-
-</html>
+}
